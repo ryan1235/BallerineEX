@@ -8,7 +8,7 @@ https://discord.gg/ballerini
 
 ## Demo
 
-(https://ryan1235.github.io/BallerineEX/)
+https://ryan1235.github.io/BallerineEX/
 
 ## incones
 
