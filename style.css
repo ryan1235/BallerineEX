@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #2F2325;
+    overflow-x: hidden;
+}
+main{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+main img{
+    width: 10rem;
+    height: 2.5rem;
+}
+
+main h1{
+    margin-top: 1.5rem;
+    font-size: 4rem;
+    font-family: 'Concert One', cursive;
+    color: #FFF2E7;
+}
+
+.ex{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 95%;
+    background-color: #483636;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 1rem;
+    justify-content: space-around;
+}
+.ex-card{
+    position: relative;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    font-family: 'Concert One', cursive;
+    color: #FFF2E7;
+    width: 20rem;
+    animation: lado 3s;
+}
+.ex-card h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.ex-card img{
+    width: 250px;
+    height: 200px;
+    margin: 0;
+    border-radius: 10px;
+    transition: transform 2s;
+}
+.ex-card img:hover{
+    transform: scale(1.1);
+}
+.ex-card p{
+    text-align: center;
+}
+.ex-card a{
+    width: 5rem;
+    font-size: 1.5rem;
+    height: 3 rem;
+    text-align: center;
+    background: #FFF2E7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #2F2325;
+    padding: .2rem;
+    border-radius: 15px;
+    transition: opacity 1s;
+}
+
+.ex-card a:hover{
+    opacity: 0.5;
+}
+
+@keyframes lado{
+    0%{
+        right: -50rem;
+    }100%{
+        right: 0rem;
+    }
+}
