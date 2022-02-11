@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -41,7 +40,8 @@ body img{
     gap: 1rem;
 }
 .ex h1{
-    margin-top: 1rem;
+    margin-top: 2rem;
+    color: #F6A6B6;
 }
 
 .ex input{
@@ -71,8 +71,14 @@ body img{
 .ex button:hover{
     opacity: .5;
 }
+.res.hide{
+    visibility: visible;
+}
 .res{
     padding-bottom: 1rem;
+    visibility: hidden;
+    display: flex;
+    gap: 1rem;
 }
 .res h2{
     padding: 1rem;
@@ -83,6 +89,21 @@ body img{
 }
 
 .res strong{
+    color: green;
+}
+.res img{
+    width: 4rem;
+    height: 4rem;
+}
+
+.moeda{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    align-items: center;
+}
+.trocos{
     color: #F6A6B6;
+    padding: 1rem;
     font-family: 'Poppins', sans-serif;
 }

@@ -8,7 +8,7 @@ function register(){
     }else{
         res.innerHTML = ''
         res.innerHTML +=`<p>Olá <strong>${nome.value}</strong>!</p>`
-        res.innerHTML +=`<p>Você tem <strong>${idade.value}</strong></p>`
+        res.innerHTML +=`<p>Você tem <strong>${idade.value} </strong>anos.</p>`
         res.innerHTML +=`<p>E quer estudar <strong>${linguagem.value}</strong></p>`
     }
 }
